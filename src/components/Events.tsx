@@ -42,7 +42,7 @@ const Events: React.FC = () => {
       date: "December 16, 2024",
       time: "9:00 AM - 4:30 PM",
       location: "MBA Smart Room",
-      image: "/tech1.jpg",
+      image: "/tech1.jpeg",
       images: [
         "/tech4.jpeg",
         "/tech2.jpeg",

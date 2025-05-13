@@ -42,9 +42,9 @@ const Events: React.FC = () => {
       date: "December 16, 2024",
       time: "9:00 AM - 4:30 PM",
       location: "MBA Smart Room",
-      image: "/images/events/tech-day-1.jpg",
+      image: "/tech1.jpg",
       images: [
-        "/tech1.jpeg",
+        "/tech4.jpeg",
         "/tech2.jpeg",
         "/tech3.jpeg"
       ],
@@ -52,9 +52,9 @@ const Events: React.FC = () => {
     },
   ];
 
-  const EventCard: React.FC<{ event: Event }> = ({ event }) => (
+const EventCard: React.FC<{ event: Event }> = ({ event }) => (
     <div className="glass rounded-xl overflow-hidden animate-fade-in">
-      <div className="relative h-48">
+      <div className="relative h-48 cursor-pointer" onClick={() => setSelectedImage(event.image)}>
         <img
           src={event.image}
           alt={event.title}
@@ -65,7 +65,11 @@ const Events: React.FC = () => {
       {event.images && event.images.length > 0 && (
         <div className="grid grid-cols-3 gap-2 p-2 bg-black/20">
           {event.images.map((img, index) => (
-            <div key={index} className="relative h-24">
+            <div 
+              key={index} 
+              className="relative h-24 cursor-pointer" 
+              onClick={() => setSelectedImage(img)}
+            >
               <img
                 src={img}
                 alt={`${event.title} - Image ${index + 2}`}

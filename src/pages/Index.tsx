@@ -44,8 +44,8 @@ const Index = () => {
       <main>
         <Hero />
         <About />
-        <Team />
         <Mentors />
+        <Team />
         <Events />
         <Contact />
       </main>
@@ -70,17 +70,18 @@ const Index = () => {
               color="hover:shadow-dot-cyan/20"
             />
             <NavBox 
-              title="Our Team" 
-              description="Meet our dedicated team of student innovators who make D.O.T. possible."
-              href="/team"
-              color="hover:shadow-dot/20"
-            />
-            <NavBox 
               title="Our Mentors" 
               description="Get to know the industry experts and academics who guide our journey."
               href="/mentors"
               color="hover:shadow-dot-cyan/20"
             />
+            <NavBox 
+              title="Our Team" 
+              description="Meet our dedicated team of student innovators who make D.O.T. possible."
+              href="/team"
+              color="hover:shadow-dot/20"
+            />
+            
             <NavBox 
               title="Events" 
               description="Check out our upcoming events and workshops to enhance your skills."

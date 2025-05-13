@@ -34,15 +34,7 @@ const Hero: React.FC = () => {
           </p>
         </div>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mt-20">
-          <Button 
-            size="lg" 
-            className="bg-gradient-to-r from-dot-cyan to-dot text-white hover:opacity-90 transition-opacity animate-bounce-in"
-          >
-            Learn More
-            <ArrowRight size={18} className="ml-2" />
-          </Button>
-        </div>
+       
         
         <div className="mt-16 animate-bounce">
           <a href="#team" className="inline-block">

@@ -44,9 +44,9 @@ const Events: React.FC = () => {
       location: "MBA Smart Room",
       image: "/images/events/tech-day-1.jpg",
       images: [
-        "/images/events/tech1.jpeg",
-        "/images/events/tech2.jpeg",
-        "/images/events/tech3.jpeg"
+        "/tech1.jpeg",
+        "/tech2.jpeg",
+        "/tech3.jpeg"
       ],
       description: "Tech Day featured dynamic sessions on idea pitching and logo design, fostering creativity and innovation among participants."
     },

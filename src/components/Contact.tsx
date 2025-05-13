@@ -125,7 +125,7 @@ const Contact: React.FC = () => {
                   <MessageSquare className="w-5 h-5 text-dot mt-0.5" />
                   <div>
                     <h4 className="font-medium">Email Us</h4>
-                    <p className="text-white/70">dotofficialclub@gmail.com</p>
+                    <p className="text-white/70">dotclub</p>
                   </div>
                 </li>
                 
@@ -143,12 +143,11 @@ const Contact: React.FC = () => {
                   </svg>
                   <div>
                     <h4 className="font-medium">Instagram</h4>
-                    <a href="https://www.instagram.com/dot_pesce_/" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-dot-cyan transition-colors">
-
-                    </a>
+                    <p className="text-white/70">https://www.instagram.com/dot_pesce_/</p>
                   </div>
                 </li>
               </ul>
+              
               
               <div className="mt-8 pt-6 border-t border-white/10">
                 <p className="text-white/70 text-sm">

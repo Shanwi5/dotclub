@@ -120,12 +120,12 @@ const Contact: React.FC = () => {
             <div className="glass rounded-xl p-6 md:p-8 mb-6 animate-fade-in" style={{ animationDelay: '200ms' }}>
               <h3 className="text-xl font-bold mb-6">Connect With Us</h3>
               
-              <ul className="space-y-4">
+             <ul className="space-y-4">
                 <li className="flex items-start space-x-3">
                   <MessageSquare className="w-5 h-5 text-dot mt-0.5" />
                   <div>
                     <h4 className="font-medium">Email Us</h4>
-                    <p className="text-white/70">dotclub</p>
+                    <a href="mailto:dotofficialclub@gmail.com" className="text-white/70 hover:text-dot-cyan transition-colors">dotofficialclub@gmail.com</a>
                   </div>
                 </li>
                 
@@ -133,7 +133,7 @@ const Contact: React.FC = () => {
                   <Globe className="w-5 h-5 text-dot-cyan mt-0.5" />
                   <div>
                     <h4 className="font-medium">Discord</h4>
-                    <p className="text-white/70">discord.gg/DOT-Community</p>
+                    <a href="https://discord.gg/DOT-Community" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-dot-cyan transition-colors">discord.gg/DOT-Community</a>
                   </div>
                 </li>
                 
@@ -143,11 +143,10 @@ const Contact: React.FC = () => {
                   </svg>
                   <div>
                     <h4 className="font-medium">Instagram</h4>
-                    <p className="text-white/70">https://www.instagram.com/dot_pesce_/</p>
+                    <a href="https://www.instagram.com/dot_pesce_/" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-dot-cyan transition-colors">https://www.instagram.com/dot_pesce_/</a>
                   </div>
                 </li>
               </ul>
-              
               
               <div className="mt-8 pt-6 border-t border-white/10">
                 <p className="text-white/70 text-sm">
